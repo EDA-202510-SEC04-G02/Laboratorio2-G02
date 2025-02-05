@@ -55,8 +55,7 @@ def print_menu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    print("3- Cargar Book-Tags!!!...")
-    print("3- Cargar los Tags de Libros")
+    print("3- Cargar los tags de los libros")
     print("0- Salir")
 
 
@@ -94,25 +93,23 @@ def load_books_tags(app):
     :param app: Aplicación de la lógica
     :type app: logic
     """
-    # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    pass
+    book_tags = logic.load_books_tags(app, 'GoodReads/book_tags-small.csv')
+    return book_tags
 
 
 def first_book(app):
     """
     Devuelve el primer libro cargado en el conjunto de libros
     """
-    # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    pass
-
+    first = logic.first_book()
+    return first 
 
 def last_book(app):
-    # TODO: Mods de Est-1 y Est-2, Est-3 en el Lab 2
     """
     Devuelve el último libro cargado en el conjunto de libros
     """
-    pass
-
+    last = logic.last_book()
+    return last
 
 # Se crea el controlador asociado a la vista
 app = new_logic()
@@ -136,8 +133,8 @@ def main():
             books = load_books(app)
             print("Total de libros cargados: " + str(books) + "\n")
 
-            # TODO: Mods de Est-1 en el Lab 2
-            first = None
+            first = first_book(app)
+            print("Primer libro cargado:\n" +str(first) +"\n")
 
             # TODO: Mods de Est-2 en el Lab 2
             last = None
