@@ -38,9 +38,9 @@ Este repositorio forma parte del marco docente de estructura de datos y algoritm
 
 Los estudiantes editan esta sección para agregar sus nombres, correos electrónicos de Uniandes y especificar qué funcionalidad de proyecto implementarán.
 
-1. Estudiante-1, Andrés Mauricio Toloza Cruz, a.toloza@uniandes.edu.co
-2. Estudiante-2, Sergio Quiroga, si.quiroga@uniandes.edu.co
-3. Estudiante-3, Manuel Botía, m.botia@uniandes.edu.co
+1. Estudiante-1, Andrés Mauricio Toloza Cruz, a.toloza@uniandes.edu.co, 202211614
+2. Estudiante-2, Sergio Quiroga, si.quiroga@uniandes.edu.co, 202310821
+3. Estudiante-3, Manuel Botía, m.botia@uniandes.edu.co, 202210567
 
 [Volver al inicio](#laboratorio-2)
 
