@@ -101,3 +101,13 @@ def is_empty(my_set):
     :rtype: bool
     """
     return my_set['size'] == 0
+
+def get_first_element(my_set):
+    if my_set['size'] > 0:
+        return my_set['elements'][0]
+    return None
+
+def get_last_element(my_set):
+    if my_set['size'] > 0:
+        return my_set['elements'][-1]
+    return None

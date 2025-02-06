@@ -101,14 +101,14 @@ def first_book(app):
     """
     Devuelve el primer libro cargado en el conjunto de libros
     """
-    first = logic.first_book()
+    first = logic.first_book(app)
     return first 
 
 def last_book(app):
     """
     Devuelve el último libro cargado en el conjunto de libros
     """
-    last = logic.last_book()
+    last = logic.last_book(app)
     return last
 
 # Se crea el controlador asociado a la vista
